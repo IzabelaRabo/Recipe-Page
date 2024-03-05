@@ -1,0 +1,96 @@
+.preparation-container{
+    background-color: hsl(330, 100%, 98%);
+    width: 100%;
+    height: 175px;
+    border-radius: 10px;
+    
+}
+h2{
+    padding-left: 30px;
+    padding-top: 15px;
+    font-family: Outfit;
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 10px;
+}
+.preparation-list{
+    padding-left: 55px;
+    font-family: Outfit;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    line-height: 30px;
+    margin-top: 0;
+}
+.prep-bullet{
+    
+    padding-left: 15px;
+}
+.prep-bullet::marker{
+    color: hsl(332, 51%, 32%);
+}
+.titles{
+    font-size: 30px;
+    font-family: Young Serif;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 15px;
+}
+.ingredients-list{
+    list-style: square;
+    line-height: 30px;
+    font-size: 16px;
+    font-family: Outfit;
+    margin-top: 0;
+    color: hsl(30, 10%, 34%);
+    padding-left: 25px;
+}
+.ingredients-bullet{
+    padding-left: 18px;
+}
+.ingredients-bullet::marker{
+    color: hsl(14, 45%, 36%);
+    font-size: 12px;
+}
+hr{
+    border-style: solid;
+    border-color: hsl(30, 18%, 87%);
+}
+.instructions-list{
+    font-size: 16px;
+    font-family: Outfit;
+    margin-top: 0;
+    color: hsl(30, 10%, 34%);
+    padding-left: 25px;
+}
+.instructions-bullet{
+    padding-bottom: 10px;
+    padding-left: 18px;
+    
+}
+.instructions-bullet::marker{
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+.nutrition-description{
+    font-size: 16px;
+    font-family: Outfit;
+    color: hsl(30, 10%, 34%);
+}
+.nutrition-table, .nutrition-table-end{
+    font-family: Outfit;
+    padding-left: 27px;
+}
+.macronutrient, .macronutrient-end{
+    color: hsl(30, 10%, 34%);
+    width: 300px;
+}
+.measurement, .measurement-end{
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+@media (max-width: 375px){
+    .macronutrient,.macronutrient-end{
+        width: 103px;
+    }
+}
+.nutrition-table-end{
+    padding-bottom: 30px;
+}
